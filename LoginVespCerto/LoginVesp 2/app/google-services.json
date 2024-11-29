@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "796695496806",
+    "firebase_url": "https://loginfragvesp-default-rtdb.firebaseio.com",
+    "project_id": "loginfragvesp",
+    "storage_bucket": "loginfragvesp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796695496806:android:f58445b910cba0fe1445a7",
+        "android_client_info": {
+          "package_name": "br.com.loginvesp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk9QazUkQUh6CuITInS7QlbqUh6su5Fz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796695496806:android:c868825336781f3a1445a7",
+        "android_client_info": {
+          "package_name": "br.slmm.com.loginvesp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk9QazUkQUh6CuITInS7QlbqUh6su5Fz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796695496806:android:86c1c3b201578adc1445a7",
+        "android_client_info": {
+          "package_name": "com.example.fragloginsemtoolbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk9QazUkQUh6CuITInS7QlbqUh6su5Fz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

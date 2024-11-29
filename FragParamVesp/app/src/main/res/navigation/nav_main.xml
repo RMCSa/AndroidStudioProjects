@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/baseFragment">
+
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.example.fragparamvesp.BaseFragment"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_base" >
+        <action
+            android:id="@+id/action_baseFragment_to_tela1Fragment"
+            app:destination="@id/tela1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela1Fragment"
+        android:name="com.example.fragparamvesp.Tela1Fragment"
+        android:label="fragment_tela1"
+        tools:layout="@layout/fragment_tela1" >
+        <argument
+            android:name="nome"
+            app:argType="string"
+            android:defaultValue="Basico" />
+    </fragment>
+</navigation>
